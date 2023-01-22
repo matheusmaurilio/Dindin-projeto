@@ -81,24 +81,50 @@
       display: none !important;
     }
 
+    .conteiner{
+        padding: 0;
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+
     .conteiner h1{
-        padding-top: 0;
+
+        padding: 0;
         
     }
 
     .conteiner form{
-        padding-left: 0;
-        padding-top: 0;
+        padding: 0;
+        height: 80vh;
     }
 
+
     .conteiner form input{
+        height: 5vh;
+        width: 80vw;
+    }
+
+    .conteiner form #mensagem{
+        text-align: center;
         
-        width: 60vw;
+        height: 40vh;
     }
 
     .conteiner button{
-        width: 60vw;
+        margin: 0;
+        margin-top: 5rem;
+        width: 40vw;
     }
 
+    .section img{
+        display: none;
+    }
 
 }
