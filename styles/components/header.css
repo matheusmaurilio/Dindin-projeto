@@ -1,0 +1,65 @@
+header {
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #2E948A;
+  
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+
+    padding-left: 5rem;
+
+    color: #FFF;
+}
+  
+header ul{
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+
+    font-size: 1.25rem;
+    
+
+    padding-right: 5rem;
+}
+
+
+header ul li {
+    padding: 1rem;
+    cursor: pointer;
+    
+}
+header ul li a{
+    transition: 0.4s;
+    color: #FFF;
+}
+
+header ul li a:hover{
+    color: #FF4081;
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        display: flex;
+        max-width: 100vh;
+        justify-content: center;
+    }
+
+    .logotipo {
+        width: 100px;
+        margin-right: 5em;
+        margin-left: 1em;
+    }
+
+    header ul li {
+        padding: .5rem;
+        cursor: pointer;
+        font-size: 10px;
+        padding: 1em;
+    }
+
+
+}
