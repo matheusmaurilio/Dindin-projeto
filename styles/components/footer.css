@@ -7,7 +7,7 @@ footer{
     align-items: center;
     justify-content: space-between;
 
-    background-color: var(--header-footer);
+    background-color: var(--green);
 
     padding-left: 5rem;
 }
@@ -16,7 +16,7 @@ footer{
 footer .spans-img{
     
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     
 }
@@ -24,20 +24,14 @@ footer .spans-img{
 footer .spans{
     display: flex;
     flex-direction: column;
-    color: #FFF;
+    color: var(--white);
 
     padding-left: 10px;
 
 }
 
-footer #span-1{
-    color: #FFF;
-    font-size: 56px;
-}
-
 footer #span-2{
-    color: #FFF;
-    font-size: 19px;
+    padding-left: 4rem;
 }
 
 footer ul{
@@ -47,7 +41,7 @@ footer ul{
     flex-direction: column;
 
     font-size: 1.25rem;
-    color: #fff;
+    color: var(--white);
 
     cursor: pointer;
 
@@ -61,15 +55,15 @@ footer ul li{
 footer ul li:hover{
     transition: 0.4s;
 
-    color: #FF4081 ;
+    color: var(--pink) ;
 }
 
 footer button{
-    background-color: #419488;
+    background-color: var(--green);
 
     width: 20vw;
 
-    border: 2px solid #fff;
+    border: 2px solid var(--white);
     border-radius: 62px;
 
     box-sizing: border-box;
@@ -81,7 +75,7 @@ footer button{
     text-align: center;
 
     font-size: 1.25rem;
-    color: #FFF;
+    color: var(--white);
 
     padding: 0.5rem;
     margin-top: 1rem;
@@ -93,24 +87,29 @@ footer button{
 
 footer button:hover{
     transition: 0.4s;
-    background-color: #FF4081;
-    color: #FFF;
+    background-color: var(--pink);
+    color: var(--white);
 
 }
 
 @media only screen and (max-width: 480px) {
     footer {
-        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     
-        top: 50px;
-        padding: 10px;
-        padding-bottom: 20px;
-    
-        font-size: 12px;
+        
+    }
+
+    footer .spans{
+        display: none;
     }
     
     footer img {
-        width: 50%;
+        width: 75vw;
+        cursor: pointer;
+        padding-right: 5rem;
     }
     
     footer button {
@@ -118,7 +117,7 @@ footer button:hover{
     }
 
     footer ul{
-        font-size: 1rem;
+        display: none;
     }
 
 }

@@ -1,13 +1,13 @@
 :root {
-  --cor-de-fundo: #f5f1f1;
-  --rosa: #FF4081;
-  --botao: #419488;
-  --texto-principal: #000000;
-  --branco-principal: #FFFFFF;
+  --background-color-one: #E5E5E5;
+  --background-color-two: #F7F7F7;
+  --pink: #FF4081;
+  --black: #000;
+  --white: #FFF;
   --fonte-principal: 'Ubuntu';
-  --subtitulo: #555555;
-  --header-footer: #2E948A;
-  --titulo-principal: #009688;
+  --text-color: #555555;
+  --green: #009688;
+
 }
 
 *{

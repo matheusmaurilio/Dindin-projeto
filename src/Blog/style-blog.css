@@ -3,7 +3,7 @@
     justify-content: space-evenly;
     align-items: center;
     margin: 3em 2em;
-    background-color: #Fff;
+    background-color: var(--white);
 }
 
 .titulo {
@@ -11,14 +11,14 @@
 }
 
 .principal__titulo {
-    color: var(--titulo-principal);
+    color: var(--green);
     font-weight: 700;
     font-size: 47px;
     padding-bottom: 1em;
 }
 
 .principal__descricao {
-    color: var(--texto-principal);
+    color: var(--black);
     font-weight: 300;
     font-size: 20px;
     flex-wrap: wrap;
@@ -32,7 +32,7 @@
 .container2 {
     display: flex;
     justify-content:space-evenly;
-    background-color: var(--cor-de-fundo);
+    background-color: var(--background-color-one);
 }
 
 .retangulo {
@@ -48,7 +48,7 @@
 }
 
 .retangulo__titulo {
-    color: var(--rosa);
+    color: var(--pink);
     font-weight: 500;
     font-size: 30px;
     padding: 0.5em 0 0.5em 0;
@@ -57,12 +57,15 @@
 .container3 {
     display: flex;
     justify-content:space-evenly;
-    background-color: var(--cor-de-fundo);
+    background-color: var(--background-color-one);
     padding-bottom: 5em;
 }
 
 @media only screen and (max-width: 480px) {
 
+    header{
+        display: none !important;
+    }
     .imagem1 {
         display: none;
     }

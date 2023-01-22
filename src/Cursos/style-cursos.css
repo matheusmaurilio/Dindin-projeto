@@ -1,6 +1,6 @@
 
 html, body {
-  background-color: var(--branco-principal);
+  background-color: var(--white);
 }
 
 .principal {
@@ -11,14 +11,14 @@ html, body {
 }
 
 .principal__titulo {
-  color: var(--rosa);
+  color: var(--pink);
   font-weight: 700;
   font-size: 60px;
 
 }
 
 .principal__subtitulo {
-  color: var(--subtitulo);
+  color: var(--text-color);
   font-weight: 400;
   font-size: 20px;
 }
@@ -34,24 +34,24 @@ html, body {
 }
 
 .titulo__descricao {
-  color: var(--rosa);
+  color: var(--pink);
   font-size: 35px;
   font-weight: 700;
 }
 
 .conteudo__descricao {
-  color: var(--texto-principal);
+  color: var(--black);
   font-size: 18px;
   font-weight: 300;
   padding: 2em 3em 3em 0;
 }
 
 .container__botao {
-  background-color: var(--botao);
-  color: var(--branco-principal);
+  background-color: var(--green);
+  color: var(--white);
   font-size: 20px;
   font-weight: 400;
-  border: solid var(--botao);
+  border: solid var(--green);
   border-radius: 62px;
   padding: 10px 50px;
 
@@ -60,7 +60,7 @@ html, body {
 
 .container__botao:hover{
   transition: 0.3s;
-  background-color: #fff;
+  background-color: var(--white);
   color: var(--botao) ;
 }
 
@@ -81,6 +81,10 @@ html, body {
 
 @media only screen and (max-width: 480px) {
 
+  header{
+    display: none !important;
+  }
+
   .principal, .container {
     margin: 1em;
   }
@@ -95,35 +99,36 @@ html, body {
   }
 
   .principal__titulo {
-    color: var(--rosa);
+    color: var(--pink);
     font-weight: 700;
     font-size: 30px;
+    padding-bottom: 1rem;
   }
 
   .principal__subtitulo {
-      color: var(--subtitulo);
+      color: var(--text-color);
       font-size: 12px;
   }
 
   .titulo__descricao {
-    color: var(--rosa);
+    color: var(--pink);
     font-size: 20px;
     font-weight: 700;
   }
   
   .conteudo__descricao {
-    color: var(--texto-principal);
+    color: var(--black);
     font-size: 12px;
     font-weight: 300;
     padding: 2em 3em 3em 0;
   }
 
     .container__botao {
-      background-color: var(--botao);
-      color: var(--branco-principal);
+      background-color: var(--green);
+      color: var(--white);
       font-size: 12px;
       font-weight: 400;
-      border: solid var(--botao);
+      border: solid var(--green);
       border-radius: 62px;
       padding: 5px 25px;
   }
