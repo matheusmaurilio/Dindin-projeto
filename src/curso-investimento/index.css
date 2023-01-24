@@ -44,6 +44,7 @@
     background-color: var(--background-color-two);
 
     padding: 4.5rem 13rem;
+    padding-bottom: 2rem;
 
     display: flex;
 
@@ -68,7 +69,7 @@
     width: 32rem;
     height: 2.5rem;
     left: 47rem;
-    top: 46rem;
+    top: 44rem;
 
     font-size: 2.2rem;
 
@@ -85,7 +86,7 @@
     height: 195px;
 
     left: 750px;
-    top: 1212px;
+    top: 1200px;
 
     padding-top: 100px;
 }
@@ -97,7 +98,7 @@
     height: 40px;
 
     left: 750px;
-    top: 1146px;
+    top: 1110px;
 
     font-size: 2.2rem;
 
@@ -114,7 +115,7 @@
     height: 195px;
 
     left: 750px;
-    top: 1624px;
+    top: 1620px;
 
     padding-top: 100px;
 
@@ -127,7 +128,7 @@
     height: 40px;
 
     left: 750px;
-    top: 1558px;
+    top: 1520px;
 
     font-size: 2.2rem;
 
@@ -160,6 +161,11 @@ hr .aula-2 {
     background: var(--gray-line);
 }
 
+.container-2 .video{
+    padding: 0;
+    padding-bottom: 5rem;
+}
+
 /*** Responsividade *********************************/
 /* 480px CELULARES */
 
@@ -170,8 +176,10 @@ hr .aula-2 {
     }
 
     #videos {
-        width: 10%;
-        padding: 0%;
+        width: 100vw;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
 
     }
 
@@ -181,10 +189,6 @@ hr .aula-2 {
         margin-top: 50px;
         width: 350px;
         height: 200px;
-    }
-
-    #videos hr {
-        padding-left: 500px;
     }
 
     .initial{
@@ -221,7 +225,8 @@ hr .aula-2 {
     }
 
     .container-2{
-        width: auto
+        width: 100vw;
+        height:100vh;
 
         display: flex;
         flex-direction: column;
@@ -231,7 +236,7 @@ hr .aula-2 {
     }
 
     .container-2 .video{
-        width: 100vw;
+        width: auto;
         height: 100vh;
         padding: 0;
         padding-top: 1rem;
@@ -244,6 +249,46 @@ hr .aula-2 {
         padding: 0;
 
     }
+
+    .aula-1 p{
+        display: none;
+    }
+
+    .aula-1 h2{
+        display: none;
+    }
+
+    .aula-2 h2{
+        display: none;
+    }
+
+    .aula-3 h2{
+
+        display: none;
+    }
+
+    .aula-2 p{
+        display: none;
+    }
+
+    .aula-3 p{
+        display: none;
+    }
+
+    .aula-1 linha-vertical-1{
+        display: none;
+    }
+
+    .aula-2 linha-vertical-2{
+        display: none;
+    }
+
+    .aula-3 {
+        display: none;
+    }
+
+
+
 }
 
 /* 1024px TABLETS 
