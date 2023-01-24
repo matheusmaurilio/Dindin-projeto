@@ -13,7 +13,7 @@ Esperamos que ao final do desafio você consiga:
 ● Desenvolver páginas responsivas que se adaptam para
 diferentes tamanho de dispositivos.
 
-## Stack utilizada
+## Stacks
 
 **Front-end:** 
 - HTML5
